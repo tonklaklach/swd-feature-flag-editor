@@ -1,0 +1,20 @@
+{
+  "flags": {
+    "my-new-feature": {
+      "variations": {
+        "on": true,
+        "off": false
+      },
+      "targeting": [
+        {
+          "query": "group == 'beta'",
+          "percentage": 50,
+          "variation": "on"
+        }
+      ],
+      "defaultRule": {
+        "variation": "off"
+      }
+    }
+  }
+}
